@@ -195,3 +195,66 @@ Personality.create!(
     }
   ]
 )
+
+User.create!(
+  [
+    {
+      email: 'olga@olga.com',
+      first_name: 'Olga',
+      last_name: 'Romanova'
+    },
+    {
+      email: 'carljung@mbti.com',
+      first_name: 'Carl',
+      last_name: 'Jung'
+    },
+    {
+      email: 'sigmundfreud@mbti.com',
+      first_name: 'Sigmund',
+      last_name: 'Freud'
+    },
+    {
+      email: 'emmajung@mbti.com',
+      first_name: 'Emma',
+      last_name: 'Jung'
+    },
+    {
+      email: 'sabrinaspielrein@mbti.com',
+      first_name: 'Sabrina',
+      last_name: 'Spielrein'
+    },
+    {
+      email: 'hermannhesse@mbti.com',
+      first_name: 'Hermann',
+      last_name: 'Hesse'
+    },
+    {
+      email: 'aldoushuxley@mbti.com',      
+      first_name: 'Aldous',
+      last_name: 'Huxley'
+    }
+  ]
+)
+
+PeerSet.create!(
+  [
+    {
+      first_user_id: 2,
+      second_user_id: 3,
+      first_user_confirmation: true,
+      second_user_confirmation: true
+    },
+    {
+      first_user_id: 2,
+      second_user_id: 6,
+      first_user_confirmation: true,
+      second_user_confirmation: true
+    },
+    {
+      first_user_id: 4,
+      second_user_id: 5,
+      first_user_confirmation: true,
+      second_user_confirmation: true
+    }
+  ]
+)

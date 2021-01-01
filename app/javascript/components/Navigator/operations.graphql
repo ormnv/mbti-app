@@ -1,0 +1,13 @@
+query NavigatorQuery {
+  users {
+    id
+    email
+    fullName
+    personality {
+      name
+    }
+    peers {
+      fullName
+    }
+  }
+}

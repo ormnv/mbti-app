@@ -1,0 +1,9 @@
+# /app/javascript/components/AddPeerSetForm/operations.graphql
+
+mutation AddPeerSetMutation(
+  $requesteePeerEmail: String!
+) {
+  addPeerSet(requesteePeerEmail: $requesteePeerEmail!) {
+    peerSet
+  }
+}
